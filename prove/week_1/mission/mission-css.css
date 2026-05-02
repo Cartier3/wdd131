@@ -1,7 +1,27 @@
+/* Light Mode */
 body {
     background-color: white;
+    color: black;
     font-family:'Times New Roman', Times, serif;
 }
+
+
+/* Dark Mode */
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body.dark #content {
+    background-color: #1e1e1e;
+    color: #e0e0e0
+}
+
+body.dark h2 {
+    color: #a8c7f0
+}
+
 
 #content{
     max-width:40%;
@@ -18,7 +38,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color:navy;
+    color:#a8c7f0;
     font-size: 12px;
     letter-spacing: 2px;
 }
