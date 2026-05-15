@@ -20,17 +20,42 @@ body {
     background-color: #b0b0b0;
 }
 
+main {
+    background-color: #b0b0b0;
+    padding: 20px;
+}
+
 nav {
+    display: none;
+}
+
+nav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav.open a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.hide {
     display: none;
 }
 
 .menu-btn {
     display: block;
-}
-
-main {
-    background-color: #b0b0b0;
-    padding: 20px;
 }
 
 h1 {
@@ -48,16 +73,38 @@ h2 {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 16px;
-    max-width: 1100px;
+    max-width: 900px;
     margin: 0 auto;
+    justify-items: center;
 }
 
 .gallery img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     border: 3px solid white;
+    box-shadow: 5px 5px 15px black;
+}
+
+dialog img {
+    width: 90%;
+    display: block;
+    margin: 20vh auto;
+}
+
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+
+.close-viewer {
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+    padding: 3px 6px;
+    font-size: 1.5em;
 }
 
 footer {
@@ -70,6 +117,21 @@ footer {
 
 /* CSS Media Queries */
 @media screen and (min-width: 700px) {
+   
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+     .menu-btn {
+        display: none;
+    }
+    
     nav {
         display: flex;
         gap: 16px;
@@ -80,18 +142,27 @@ footer {
         text-decoration: none;
     }
 
-    .menu-btn {
-        display: none;
+    .hide{
+        display: inline;
     }
 
-    .gallery {
-        grid-template-columns: 1fr 1fr;
+    dialog img {
+        width: 60%;
+        margin: 15vh auto;
     }
-}
 
-@media screen and (min-width: 1000px) {
-    .gallery {
-        grid-template-columns: 1fr 1fr 1fr;
+    .close-viewer {
+        position: absolute;
+        right: 15vh;
+    }
+
+    .viewer {
+        margin: 50px;
+        padding: 50px;
+    }
+
+    .viewer img {
+        max-width: 800px;
     }
 }
 
