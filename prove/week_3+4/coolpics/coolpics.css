@@ -1,0 +1,91 @@
+/* Mobile CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+body {
+    background-color: lightblue;
+}
+
+nav {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+}
+
+main {
+    background-color: grey;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* CSS Media Queries */
+@media screen and (min-width: 700px) {
+    nav {
+        display: flex;
+        gap: 16px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
