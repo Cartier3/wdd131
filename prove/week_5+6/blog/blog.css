@@ -1,0 +1,91 @@
+/* Mobile CSS */
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    font-size: 16px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+ul a {
+    color: maroon;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    padding: 5px 20px;
+}
+
+.book1 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 60px;
+    gap: 20px;
+    border: 1px solid tan;
+    margin: 20px;
+}
+
+.book1-meta {
+    text-align: right;
+    flex: 1;
+    min-width: 200px;
+    font-style: italic;
+    border-right: 2px solid gold;
+    padding-right: 20px;
+}
+
+.book1-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.book1-content img {
+    width: 200px;
+}
+
+.book1-content h2 {
+    color: maroon;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid gold;
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    .book1 {
+        flex-direction: column;
+    }
+
+    .book1-meta {
+        text-align: right;
+        min-width: unset;
+        width: 100%;
+        border-right: none;
+    }
+
+    .book1-content {
+        width: 100%;
+    }
+
+    .book1-content img {
+        width: 150px;
+    }
+}
