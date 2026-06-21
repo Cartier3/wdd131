@@ -1,0 +1,139 @@
+body {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+header img {
+    width: 75px;
+}
+
+h1 {
+    font-family: "Amatic SC", cursive;
+}
+
+.search-img {
+    width: 20px;
+    padding: 10px 15px;
+    border-left: 2px solid black;
+    box-sizing: content-box;
+}
+
+#search-area {
+    margin: 30px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#search-area input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#recipe-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.tag {
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    padding: 4px 10px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.apple-crisp {
+    width: 95%;
+    padding: 20px;
+}
+
+h2 {
+    font-family: "Amatic SC", cursive;
+    color: skyblue;
+}
+
+#info-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.description {
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.media-icons {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.media-icons img {
+    width: 30px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+    body {
+        padding: 55px;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    #recipe-card {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .apple-crisp {
+        width: 40%;
+        flex-shrink: 0;
+    }
+
+    #info-wrapper {
+        align-items: flex-start;
+    }
+
+    .description {
+        display: block;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+}
