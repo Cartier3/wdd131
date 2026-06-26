@@ -284,6 +284,11 @@ const recipes = [
 const searchInput = document.querySelector('input[type="text"]');
 const resultsContainer = document.getElementById('results-container');
 
+const randomIndex = Math.floor(Math.random() * recipes.length);
+const randomRecipe = recipes[randomIndex];
+displayRecipes([randomRecipe]);
+
+
 searchInput.addEventListener('input', function() {
     const searchTerm = searchInput.value.toLowerCase().trim();
 
