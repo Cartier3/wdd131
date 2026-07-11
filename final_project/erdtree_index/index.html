@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Erdtree Index</title>
+    <meta name="description" content="This is a fan-made site that indexes the bosses, weapons, and enemy types of the hit video game, Elden Ring!">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <img src="images/erdtree_index_logo.png" alt="Logo image">
+
+        <h1>The Erdtree Index</h1>
+
+    </header>
+    
+    <main>
+
+        <div id="entry-of-the-day">
+
+            <h2>Entry of the Day!</h2>
+            <div id="entryotd-content"></div>
+
+        </div>
+
+        <div class="container" id="search-area">
+
+            <select id="filter-select">
+                <option value="all">All</option>
+                <option value="weapon">Weapon</option>
+                <option value="boss">Boss</option>
+                <option value="enemy">Enemy</option>
+                <option value="item">Item</option>   
+            </select>
+            
+            <input type="text" id="search-input" placeholder="Search for any weapon, boss, enemy, or item.">
+
+            <img class="search-img" src="images/search-icon-fancy.png" alt="Search Bar Icon">
+
+            <button id="submit-button">Submit</button>
+
+        </div>
+
+        <div id="results-container"></div>
+
+    </main>
+</body>
+</html>
