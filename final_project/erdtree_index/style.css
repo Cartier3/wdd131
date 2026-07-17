@@ -7,7 +7,7 @@ header {
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 10px;
-    background-color: #8B7355;
+    background-color: #C9A876;
 }
 
 h1 {
@@ -50,7 +50,7 @@ h2 {
 
 h3 {
     font-family: 'MedievalSharp', cursive;
-    color: #8B7355;
+    color: #C9A876;
 }
 
 .entry-card {
@@ -67,6 +67,15 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nonwrap;
 }
 
 #filter-select {
