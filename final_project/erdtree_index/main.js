@@ -1,15 +1,15 @@
 const index = [
   // ---------- WEAPONS ----------
-  { name: "Lordsworn's Straight Sword", category: "weapon", img: "lordsworn-straight-sword.jpg", stats: { damage: 96, weight: 3.0, type: "Straight Sword" } },
+  { name: "Lordsworn's Straight Sword", category: "weapon", img: "images/lordsworn-straight-sword.jpg", stats: { damage: 96, weight: 3.0, type: "Straight Sword" } },
   { name: "Bloodhound's Fang", category: "weapon", img: "images/bloodhounds-fang.webp", stats: { damage: 129, weight: 6.5, type: "Curved Greatsword" } },
   { name: "Moonveil", category: "weapon", img: "images/moonveil.webp", stats: { damage: 111, weight: 5.5, type: "Katana" } },
-  { name: "Rivers of Blood", category: "weapon", img: "images/", stats: { damage: 131, weight: 6.0, type: "Curved Sword" } },
-  { name: "Grafted Blade Greatsword", category: "weapon", img: "images/", stats: { damage: 156, weight: 12.0, type: "Colossal Sword" } },
-  { name: "Sacred Relic Sword", category: "weapon", img: "images/", stats: { damage: 145, weight: 8.5, type: "Greatsword" } },
-  { name: "Blasphemous Blade", category: "weapon", img: "images/", stats: { damage: 137, weight: 8.0, type: "Greatsword" } },
-  { name: "Dragon King's Cragblade", category: "weapon", img: "images/", stats: { damage: 148, weight: 11.5, type: "Colossal Weapon" } },
-  { name: "Marika's Hammer", category: "weapon", img: "images/", stats: { damage: 152, weight: 18.0, type: "Colossal Weapon" } },
-  { name: "Wing of Astel", category: "weapon", img: "images/", stats: { damage: 118, weight: 7.5, type: "Great Katana" } },
+  { name: "Rivers of Blood", category: "weapon", img: "images/rivers-of-blood.webp", stats: { damage: 131, weight: 6.0, type: "Curved Sword" } },
+  { name: "Grafted Blade Greatsword", category: "weapon", img: "images/grafted-blade.webp", stats: { damage: 156, weight: 12.0, type: "Colossal Sword" } },
+  { name: "Sacred Relic Sword", category: "weapon", img: "images/sacred-relic-sword.webp", stats: { damage: 145, weight: 8.5, type: "Greatsword" } },
+  { name: "Blasphemous Blade", category: "weapon", img: "images/blasphemous-blade.jpg", stats: { damage: 137, weight: 8.0, type: "Greatsword" } },
+  { name: "Dragon King's Cragblade", category: "weapon", img: "images/dragon-king-crag.avif", stats: { damage: 148, weight: 11.5, type: "Colossal Weapon" } },
+  { name: "Marika's Hammer", category: "weapon", img: "images/marikas-hammer.webp", stats: { damage: 152, weight: 18.0, type: "Colossal Weapon" } },
+  { name: "Wing of Astel", category: "weapon", img: "images/wing-of-astel.webp", stats: { damage: 118, weight: 7.5, type: "Great Katana" } },
 
   // ---------- BOSSES ----------
   { name: "Margit, the Fell Omen", category: "boss", img: "images/margit-the-fell-omen.jpg", stats: { hp: 1037, region: "Stormveil Castle" } },
@@ -24,16 +24,16 @@ const index = [
   { name: "Elden Beast", category: "boss", img: "images/elden-beast.jpg", stats: { hp: 9080, region: "Elden Throne" } },
 
   // ---------- ENEMIES ----------
-  { name: "Soldier of Godrick", category: "enemy", img: "images/", stats: { hp: 240, region: "Limgrave" } },
-  { name: "Tree Sentinel", category: "enemy", img: "images/", stats: { hp: 1610, region: "Limgrave" } },
-  { name: "Giant Crow", category: "enemy", img: "images/", stats: { hp: 490, region: "Limgrave" } },
-  { name: "Runebear", category: "enemy", img: "images/", stats: { hp: 2151, region: "Mistwood" } },
-  { name: "Crucible Knight", category: "enemy", img: "images/", stats: { hp: 1800, region: "Stormveil Castle" } },
-  { name: "Erdtree Avatar", category: "enemy", img: "images/", stats: { hp: 4000, region: "Various" } },
-  { name: "Ulcerated Tree Spirit", category: "enemy", img: "images/", stats: { hp: 3200, region: "Various" } },
-  { name: "Land Octopus", category: "enemy", img: "images/", stats: { hp: 890, region: "Various" } },
-  { name: "Miranda the Blighted Bloom", category: "enemy", img: "images/", stats: { hp: 1250, region: "Various" } },
-  { name: "Putrid Avatar", category: "enemy", img: "images/", stats: { hp: 2900, region: "Caelid" } },
+  { name: "Soldier of Godrick", category: "enemy", img: "images/soldier-of-godrick.webp", stats: { hp: 240, region: "Limgrave" } },
+  { name: "Tree Sentinel", category: "enemy", img: "images/tree-sentinel.jpg", stats: { hp: 1610, region: "Limgrave" } },
+  { name: "Giant Crow", category: "enemy", img: "images/giant-crow.jpg", stats: { hp: 490, region: "Limgrave" } },
+  { name: "Runebear", category: "enemy", img: "images/rune-bear.jpg", stats: { hp: 2151, region: "Mistwood" } },
+  { name: "Crucible Knight", category: "enemy", img: "images/crucible-knight.jpg", stats: { hp: 1800, region: "Stormveil Castle" } },
+  { name: "Erdtree Avatar", category: "enemy", img: "images/erdtree-avatar.jpg", stats: { hp: 4000, region: "Various" } },
+  { name: "Ulcerated Tree Spirit", category: "enemy", img: "images/ulcerated-tree-spirit.webp", stats: { hp: 3200, region: "Various" } },
+  { name: "Land Octopus", category: "enemy", img: "images/land-octopus.jpg", stats: { hp: 890, region: "Various" } },
+  { name: "Miranda the Blighted Bloom", category: "enemy", img: "images/miranda.jpg", stats: { hp: 1250, region: "Various" } },
+  { name: "Putrid Avatar", category: "enemy", img: "images/putrid-avatar.jpg", stats: { hp: 2900, region: "Caelid" } },
 
   // ---------- ITEMS ----------
   { name: "Golden Rune (1)", category: "item", img: "images/", stats: { effect: "Restores 200 runes", rarity: "Common" } },
