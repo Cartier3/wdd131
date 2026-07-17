@@ -36,16 +36,16 @@ const index = [
   { name: "Putrid Avatar", category: "enemy", img: "images/putrid-avatar.jpg", stats: { hp: 2900, region: "Caelid" } },
 
   // ---------- ITEMS ----------
-  { name: "Golden Rune (1)", category: "item", img: "images/", stats: { effect: "Restores 200 runes", rarity: "Common" } },
-  { name: "Crimson Tear Flask", category: "item", img: "images/", stats: { effect: "Restores HP", rarity: "Common" } },
-  { name: "Cerulean Tear Flask", category: "item", img: "images/", stats: { effect: "Restores FP", rarity: "Common" } },
-  { name: "Smithing Stone (1)", category: "item", img: "images/", stats: { effect: "Upgrades weapons +1 to +3", rarity: "Common" } },
-  { name: "Somber Smithing Stone (1)", category: "item", img: "images/", stats: { effect: "Upgrades somber weapons", rarity: "Uncommon" } },
-  { name: "Rune Arc", category: "item", img: "images/", stats: { effect: "Activates Great Rune Blessings", rarity: "Rare" } },
-  { name: "Larval Tear", category: "item", img: "images/", stats: { effect: "Respec character stats", rarity: "Rare" } },
-  { name: "Golden Seed", category: "item", img: "images/", stats: { effect: "Upgrades flask charges", rarity: "Uncommon" } },
-  { name: "Sacred Tear", category: "item", img: "images/", stats: { effect: "Upgrades flask potency", rarity: "Uncommon" } },
-  { name: "Remembrance of the Grafted", category: "item", img: "images/", stats: { effect: "Trade for boss weapon/spell", rarity: "Legendary" } }
+  { name: "Golden Rune (1)", category: "item", img: "images/golden-rune-1.webp", stats: { effect: "Restores 200 runes", rarity: "Common" } },
+  { name: "Crimson Tear Flask", category: "item", img: "images/crimson-tear-flask.jpeg", stats: { effect: "Restores HP", rarity: "Common" } },
+  { name: "Cerulean Tear Flask", category: "item", img: "images/cerulean-tears.jpeg", stats: { effect: "Restores FP", rarity: "Common" } },
+  { name: "Smithing Stone (1)", category: "item", img: "images/smithing-stone(1).jpeg", stats: { effect: "Upgrades weapons +1 to +3", rarity: "Common" } },
+  { name: "Somber Smithing Stone (1)", category: "item", img: "images/somber-smith-1.jpeg", stats: { effect: "Upgrades somber weapons", rarity: "Uncommon" } },
+  { name: "Rune Arc", category: "item", img: "images/rune-arc.jpeg", stats: { effect: "Activates Great Rune Blessings", rarity: "Rare" } },
+  { name: "Larval Tear", category: "item", img: "images/larval-tear.avif", stats: { effect: "Respec character stats", rarity: "Rare" } },
+  { name: "Golden Seed", category: "item", img: "images/golden-seed.jpeg", stats: { effect: "Upgrades flask charges", rarity: "Uncommon" } },
+  { name: "Sacred Tear", category: "item", img: "images/sacred-tear.jpg", stats: { effect: "Upgrades flask potency", rarity: "Uncommon" } },
+  { name: "Remembrance of the Grafted", category: "item", img: "images/rem-of-grafted.png", stats: { effect: "Trade for boss weapon/spell", rarity: "Legendary" } }
 ];
 
 
