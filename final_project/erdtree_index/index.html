@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
     <title>The Erdtree Index</title>
     <meta name="description" content="This is a fan-made site that indexes the bosses, weapons, and enemy types of the hit video game, Elden Ring!">
     <link rel="stylesheet" href="style.css">
@@ -11,9 +14,9 @@
 <body>
     <header>
         
-        <img src="images/erdtree_index_logo.png" alt="Logo image">
-
         <h1>The Erdtree Index</h1>
+        
+        <img src="images/erdtree_index_logo.png" alt="Logo image" class= "site-logo">
 
     </header>
     
@@ -36,9 +39,9 @@
                 <option value="item">Item</option>   
             </select>
             
-            <input type="text" id="search-input" placeholder="Search for any weapon, boss, enemy, or item.">
-
             <img class="search-img" src="images/search-icon-fancy.png" alt="Search Bar Icon">
+
+            <input type="text" id="search-input" placeholder="Search for any weapon, boss, enemy, or item.">
 
             <button id="submit-button">Submit</button>
 
